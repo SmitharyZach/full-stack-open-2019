@@ -1,0 +1,6 @@
+title Single page app
+
+Browser->Server: Sends POST request to server
+note right of Server: note is formated in JSON
+Server->Browser: Server responds with 201 created
+note right of Browser: life is esier!

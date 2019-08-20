@@ -1,0 +1,6 @@
+title Single page app
+
+Browser->Server: Sends request for HTML page
+note right of Server: Only one HTML page!
+Server->Browser: Server responds HTML page
+note right of Browser: content is manipulated by Javascript in the browser

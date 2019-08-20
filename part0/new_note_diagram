@@ -1,0 +1,7 @@
+title When a new note is added
+
+Browser->Server: Sends user input to server
+Server->Browser: Server responds with HTTP status code 302
+Server->Browser: Server asks browser to do another GET request
+Browser->Server: Server fetches up to date list of notes
+note left of Browser: Browser refreshes
